@@ -28,4 +28,4 @@ msgid "Waiting for device..."
 msgstr "设备有点懵，要等一下..."
 
 msgid "Router is shutting down..."
-msgstr "已经关机，说啥也不好使了..."
+msgstr "正在关机，说啥也不好使了..."
