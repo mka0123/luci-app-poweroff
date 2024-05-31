@@ -41,7 +41,7 @@
 	}
 
 	function poweroff(button) {
-		button.style.display = 'none';
+		button.style.display = '';
 		document.getElementById('poweroff-message').parentNode.style.display = '';
 
 		(new XHR()).post('<%=controller%>/admin/system/poweroff/call', { token: '<%=token%>' }, check);
